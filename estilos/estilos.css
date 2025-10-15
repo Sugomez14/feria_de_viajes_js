@@ -1,0 +1,101 @@
+/* CSS dependiendo el orden que pongas los estilos influyen a la hora de aplicar los formatos  */
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+ margin: 1;
+ background-color: #efefef;
+}
+
+header {
+    background-color: #ac4ab5;
+    color: white;
+    padding: 40px 5px; /*3rem 2rem son medidas relativas dependiendo del tamaño de la fuente de la etiqueta html */
+   }
+
+ header h1 {
+    font-size: 50px;  /* 4rem seria 4x16 */
+    text-align: center;
+ }
+
+ body h2 {
+   font-size: 10px;
+ }
+
+ 
+ .container {
+    width: 550px;
+    margin: 0 auto;
+ }
+
+ section article {
+    transition: box-shandow 0.3s ease; /* para indicar que propiedades css queremos que sean animadas hay que indicarle origen y final
+     en este caso el inicio es un box-shadow sin sombra y el final seria la sombra que asignamos cuando pasamos el raton por encima*/
+    background-color: #fff;
+    margin: 1px 0;
+    border-radius: 0.5px;
+    padding: 0,25px 0px; /* le damos un 0 para que no se separe la imagen */
+    cursor: pointer; /* añadir el icono de la mano al cursor cuando pasas el raton por encima*/
+ }
+
+ section article:hover { /*para mostrar sombra a las tarjetas cuando pasas con el raton*/
+    box-shadow: 0 0.1px 0.4px rgba(0,0,0) /*al igual que text-shadow para indicar cuanto se va a desplazar la sombra hacia la dch,
+                                                 abajo, cuanto difuminacion tendra la sombra, color(en este caso rgba)*/
+  }
+
+ section article h2, section article p {
+    margin: 1px;
+ }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border:  solid 1px #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: #f00;
+    color: white;
+    text-align: left;
+    }
+
+tr:hover { /*propiedad que cambia el fondo cuando estas en una tabla y pasas por encima se ponga en gris */
+    background-color: #aaa;
+    cursor: pointer; /*cuando pasas con el raton salga una mano*/
+}
+
+ footer {
+    background-color: #222;
+    padding: 20px;
+    color: #fff
+ }
+
+ footer section {
+    float: right;
+ }
+
+ footer p {
+    margin: 0;
+ }
+
+ footer a {
+    color: #fff;
+    text-decoration: none;
+ }
+
+ footer a:hover { /*cuando pasa el raton por la url cambie de color*/
+    color:cornflowerblue;
+ }
+
+
+
+ 
+
+
+
+

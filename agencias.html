@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Agencias</title>
+        <link rel="stylesheet" href="estilos/estilos.css" />
+    </head>
+    <body>
+      <header id="titulo"> <!--id es para poner identificadores unicos a nuestras etiquetas, nunca repetir el mimso-->
+         <h1> Feria de Viajes</h1> 
+      </header>
+        <ul type="square"> <!--UL lista no ordenada-->
+             <li><a href="index.html">Inicio</a></li>
+             <li><a href="expositores.html">Expositores</a></li> 
+             <li><a href="actividades.html">Actividades</a></li>
+             <li><a href="destinosIncreibles.html">Destinos Increibles</a></li> <!--LI List Item "elemento de la lista"-->   
+        </ul>
+       <p> ¿A donde te gustaria ir?</p>
+       <p> En nuestra feria podrás encontrar stands de agencias donde te ayudarán a organizar tu próximo viaje, ya sea de placer o por negocios.</p>
+       <p>Te ayudaran a resolver tus dudas y consultas sobre viajes, te ofrecen asesoramiento personalizado</p>
+       <p>Estas son algunas de las agencias confirmadas que encontrarás.</p>
+       <button onclick="informativo()">Haz clic aquí</button>
+       <nav>
+         <ul type ="square">
+              <li><a href="https://www.logitravel.com/" target="_blank" >logitravel</a></li>       
+              <li><a href="https://www.es.lastminute.com"target="_blank">Lastminute</a></li>
+              <li><a href="https://www.edreams.es"target="_blank">Edreams</a></li>
+              <li><a href="https://www.atrapalo.com"target="_blank">Atrapalo</a></li>
+              <li><a href="https://www.vueling.com"target="_blank">vueling</a></li>
+         </ul>
+      </nav>
+     <p>Calcula tu presupuesto:</p>
+     <input type="number" id="num1" placeholder="Escribe Número 1"><br>
+     <input type="number" id="num2" placeholder="Escribe Número 2"><br>
+     <input type="number" id="num3" placeholder="Escribe Número 3"><br>
+     <button onclick="sumar()">sumar</button><br>
+     <p id="resultado"></p>
+      <img src="imagenes/aeropuerto.jpg" alt="Imagen html" width="400px"/> <!--añadir una imagen--> 
+          <footer> <!--etiqueta para poner en el pie de pagina-->  
+                 <section> 
+                     <a href="#titulo">Ir al comienzo</a> <!--#ID funcionalidad con ID para que con un link puedes navegar por la pagina-->
+                     <br>
+                     <a href="mailto:sugomez@birt.eus">Contactame aquí </a> <!-- etiqueta para enviar correo-->
+                  </section>
+                 <p class="copy">Copyright 2025</p>
+         </footer>  
+         <script src="funciones/funciones.js"></script> <!--enlazar archivo .js-->  
+    </body>
+</html>

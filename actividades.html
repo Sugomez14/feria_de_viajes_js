@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+   <meta charset="UTF-8">
+   <title>Actividades</title>
+   <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+ </head>
+ <body>
+     <header id="titulo">
+        <h1> Feria de viajes</h1> <!--id es para poner identificadores unicos a nuestras etiquetas, nunca repetir el mimso-->
+     </header>
+        <ul type="square"> <!--UL es lista no ordenada-->
+             <li><a href="index.html">Inicio</a></li>
+             <li><a href="destinosIncreibles.html">Destinos Increibles</a></li>
+             <li><a href="agencias.html">Agencias</a></li> <!--LI List Item "elemento de la lista"-->    
+             <li><a href="expositores.html">Expositores</a></li>                 
+        </ul>
+    <p> ¿Que te gustaria hacer?</p>
+    <p> Hay organizadas diferentes actividades para todos los gustos e intereses, no esperes y apuntate a la que mas se adapte a tus necesidades.</p>
+      <p id="parrafo">Actividades para todos los gustos.</p>
+      <button onclick="clic()">clic</button>
+    <nav>
+        <ul type="square">
+            <li>Conferencias y seminarios</li>
+            <li>Eventos de networking</li>
+            <li>Demostraciones de productos</li>
+            <li>Concursos</li>
+            <li>Jornadas y workshops</li>
+        </ul>
+    </nav>
+    <p>Solicita información o reserva tu plaza.</p>
+      <form action="https://www.example.com/procesar" method="GET">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="Nombre" required><br><br>
+        <label for="actividad">Actividad</label>
+        <input type="text" id="actividad" name="Actividad" required><br><br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="Correo" required><br><br>
+        <button type="submit">Enviar</button> 
+      </form>
+      <img src="imagenes/globe.jpg" alt="imagen html">
+    <footer> <!--esta etiqueta es para poner en el pie de pagina-->
+       <section>
+          <a href="#titulo">Ir al comienzo</a> <!--#ID funcionalidad con ID para que con un link puedes navegar por la pagina-->
+          <br>
+          <a href="mailto:sugomez@birt.eus">Contactame aqui </a> <!-- etiqueta para poder enviar un correo-->
+        </section>
+         <p class="copy">Copyright 2025</p>
+    </footer> 
+     <script src="funciones/funciones.js"></script> <!--enlazar archivo .js-- 
+ </body>
+</html>

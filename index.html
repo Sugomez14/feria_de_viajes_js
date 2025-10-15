@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta charset="UTF-8">
+       <title>Feria de Viajes</title>
+       <link rel="stylesheet" href="estilos/estilos.css" />
+       
+    </head>
+    <body>
+         <header id="titulo">
+            <h1> Feria de Viajes</h1> <!--id es para poner identificadores unicos a nuestras etiquetas, nunca repetir el mimso-->
+        </header>
+        <nav> <!--delimitar el menu de la pagina colocando enlaces irternos y movernos entre diferentes secciones-->
+         <ul type="square"> <!--UL es lista no ordenada-->
+           <!----  <li><a href="index.html">Inicio</a></li> -->
+             <li><a href="agencias.html">Agencias</a></li> <!--LI List Item "elemento de la lista"-->
+             <li><a href="expositores.html">Expositores</a></li>
+             <li><a href="actividades.html">Actividades</a></li>
+             <li><a href="destinosIncreibles.html">Destinos Increibles</a></li>
+         </ul>
+         <p>Nuestras ferias están dirigidas a profesinales del sector turístico, como agentes, representantes de destinos, hoteles, aerolineas que buscan hacer negocios y conocer tendecias. </p>
+         <p>Pero tambien esta abiertas al público en general, que pueden aprovechar para obtener información sobre viajes, destinos, ofertas y nuevas innovaciones turísticas.</p>
+         <p>Una feria es un buen sitio para personas que buscan inspiración, la feria es un excelente punto de encuentro para obtener ideas y planificar futuros viajes.</p>
+          <form action="https://www.example.com/procesar" method="GET">
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" name="Nombre" />
+               <!--no olvidar poner la etiqueta de (name="Nombre")es importante pq cuando 
+               enviemos los datos del formulario el servidor va a interpretar por el nombre
+               que nosotros le indiquemos en esa etiqueta, en este caso, nombre-->
+            <br>
+            <label for="Comentario">Comentario</label>
+            <br>  <!--hace un salto de linea-->       
+            <textarea cols="30" rows="5" id="Comentario" placeholder="Ingrese Comentario" name="Comentario"></textarea>
+            <br>
+           <!---- <button type="button">Tipo boton </button> -->
+            <button type="reset">reset </button>  <!--botones personalizados-->
+            <button type="submit" id="submitForm">enviar formulario</button>
+        </form>
+           <h3>Ferias de turismo globales</h3>
+            <p class="texto">Algunas de las ferias de viajes mas famosas del mundo</p>
+               <ol type="A">
+                   <li><a target="_blank" href="https://www.ifema.es/fitur">FITUR Madrid</a></li>
+                   <li><a target="_blank" href="https://www.itb.com/en">ITB Berlin</a></li>
+                   <li><a target="_blank" href="https://www.wtm.com/london/en-gb.html#/">WTM London</a></li>
+               </ol>
+
+           <h3>Destinos Exóticos</h3>
+              <p class="texto">Explora destinos exóticos, paisajes naturales asombrosos, culturas ricas y ancestrales, <br> lugares remotos y poco explorados que permiten escapar de las multitudes.</p>
+              <a target="_blank" href="https://pixabay.com/es/photos/monje-viajes-viaje-maleta-holiday-1748743/">Imagen pixabay</a> <!--añadir un link a la pagina de Pixabay en una nueva pestaña-->
+              <br>
+              <img src="imagenes/Pixabay-monk-1748743_1920.jpg" alt="Imagen html" width="400px"/> <!--añadir una imagen--> 
+          <hr> <!--hace una linea-->
+        <button onclick="alerta()">Haz clic aquí</button>
+      <!-- <button id="botonAlerta">Haz clic aquí</button> -->
+          <table style="width: 200px;">
+           <thead> <!--thead es para agrupar elementos que se encuentran en las tablas-->
+              <tr> <!--define una fila dentro de la tabla-->
+                  <th>Eventos</th> <!--th define una cabecera en cada celda de la tabla-->
+                  <th>fecha</th>
+               </tr>
+           </thead>
+           <tbody> <!--tbpdy es para agrupar o identificar los elementos de la tabla-->
+               <tr>
+                  <td>Bilbao</td> <!--td define una celda de datos en la lista-->
+                  <td>Diciembre</td>
+               </tr>
+               <tr>
+                  <td>Vitoria</td>
+                  <td>Junio</td>
+                </tr>
+           </tbody>
+         </table> 
+        <footer> <!--esta etiqueta es para poner en el pie de pagina-->
+           <section>
+             <a href="#titulo">Ir al comienzo</a> <!--#ID funcionalidad con ID para que con un link puedes navegar por la pagina-->
+             <br>
+             <a href="mailto:sugomez@birt.eus">Contactame aqui </a> <!-- etiqueta para poder enviar un correo-->
+          </section> 
+         <p class="copy">Copyright 2025</p>                                        
+       </footer>
+       <script src="funciones/funciones.js"></script> <!--enlazar archivo .js-->
+     </body>
+</html>

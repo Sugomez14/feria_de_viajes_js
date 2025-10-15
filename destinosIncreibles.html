@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>destinos increibles</title>
+    <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+<body> 
+    <header id="titulo">
+         <h1> Feria de Viajes</h1> <!--id es para poner identificadores unicos a nuestras etiquetas, nunca repetir el mimso-->
+    </header>
+       <ul type="square" class="container"> <!--UL es lista no ordenada-->
+           <!----  <li><a href="index.html">Inicio</a></li> -->
+             <li><a href="index.html">Inicio</a></li> 
+             <li><a href="agencias.html">Agencias</a></li> <!--LI List Item "elemento de la lista"-->
+             <li><a href="expositores.html">Expositores</a></li>
+            <li><a href="actividades.html">Actividades</a></li>
+       </ul>
+       <button onclick="cambiarColorFondo('lightblue')">Cambiar fondo</button>
+       <p id="parrafo2">Visita mi blog.</p>
+       <button onclick="blog()">Mi blog</button>
+    <section class="container"> <!-- section es para organizar el contendio, ejem. contiene articulos o varias etiquetas-->
+        <article class="post"> <!-- etiqueta class, al igual que ID es para poner etiquetas pero con class si se 
+                                    pueden repetir para que luego con los selectores podamos seleccionarlos facilmente con css o javascript-->
+            <h2>Destinos increibles</h2>
+            <p class="texto">Euskadi y alrededores</p> <a target="_blank" href="https://es.wikipedia.org/wiki/Pa%C3%ADs_Vasco">+info</a>
+            <img src="imagenes/Gaztelugatxe.jpg" alt="Imagen html" width="550" class="frogs"/>
+            <p class="texto">Lo mejor de Euskadi es una combinacion de paisajes impresionantes como costas y valles verdes, cultura única y una excelente gastronomia.</p>
+        </article> <!--article, etiqueta para identificar mas facilmente una parte de la pagina de una manera mas facil-->
+        <article class="post">
+            <h2>Destinos increibles</h2>
+            <p>Barcelona</p> <a target="_blank" href="https://es.wikipedia.org/wiki/Barcelona">+info</a>
+            <img src="imagenes/Barcelona.jpg" alt="Imagen html" width="550" class="mitxaela"/>
+            <p>Ciudad moderna y cultural, ha sido reconocidad como "Ciudad global" por su gran riqueza cultural, histórica y arquitectónica.</p>
+        </article>
+         <article class="post">
+            <h2>Destinos increibles</h2>
+            <p class="texto">Andalucía</p><a target="_blank" href="https://es.wikipedia.org/wiki/Andalucia">+info</a>
+            <img src="imagenes/Nerja.jpg" alt="Imagen html" width="550" class="landscape" />
+            <p class="texto">Gran diversidad natural, con playas y sierras espectaculares, su riqueza cultural e histórica, el flamenco, su gastronomía y su identidad multicultural.</p>
+        </article>
+    </section>
+    <footer> <!--esta etiqueta es para poner en el pie de pagina-->
+        <section>
+          <a href="#titulo">Ir al comienzo</a> <!--#ID funcionalidad con ID para que con un link puedes navegar por la pagina-->
+          <br>
+          <a href="mailto:sugomez@birt.eus">Contactame aqui </a> <!-- etiqueta para poder enviar un correo-->
+        </section>
+        <p class="copy">Copyright 2025</p>
+    </footer> 
+      <script src="funciones/funciones.js"></script> <!--enlazar archivo .js--> 
+</body>
+</html>
