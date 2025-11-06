@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+<title>Noticias de actualidad</title>
+<link>https://sugomez14.github.io/feria_de_viajes_js/</link>
+<description> Mi rincón de noticias</description>
+<language>es-es</language>
+<managingEditor>sugomez@birt.eus (SuGomez)</managingEditor>
+
+	<item>
+		<title> primera noticia</title>
+		<link>https://sugomez14.github.io/feria_de_viajes_js/destinosIncreibles.html</link>
+		<description>Nuevos destinos disponibles</description>
+		<author>sugomez@birt.eus (SuGomez)</author>
+		<pubDate>Sun, 02 Nov 2025 15:00:00 +0100</pubDate>
+	</item>
+
+	<item>
+		<title>Segunda noticia</title>
+		<link>https://sugomez14.github.io/feria_de_viajes_js/expositores.html</link>
+		<description>Preparando los nuevos expositores</description>
+		<author>sugomez@birt.eus (SuGomez)</author>
+		<pubDate>Sun, 02 Nov 2025 15:00:00 +0100</pubDate>
+	</item>
+
+</channel>
+</rss>
+
